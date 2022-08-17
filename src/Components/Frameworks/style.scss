@@ -1,0 +1,14 @@
+@import "src/styles/variables";
+
+
+
+.HtmlMain{
+   h1{
+      color: $white;
+   }
+
+   hr{
+      margin-top: 15px;
+      margin-bottom: 15px;
+   }
+}

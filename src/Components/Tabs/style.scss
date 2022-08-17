@@ -1,0 +1,14 @@
+@import "src/styles/variables";
+
+.tabs-style{
+  background-color: $dark;
+  padding-bottom: 20px;
+
+  & .ant-tabs{
+    color: $white;
+  }
+
+  & .ant-tabs-tab{
+    font-weight: 600;
+  }
+}

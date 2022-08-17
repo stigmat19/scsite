@@ -1,0 +1,29 @@
+@import "src/styles/variables";
+
+.HtmlMain{
+
+   h1{
+      color: $white;
+   }
+
+   hr{
+      margin-top: 15px;
+      margin-bottom: 15px;
+   }
+}
+
+.HomeTaskStyle{
+   padding-bottom: 50px;
+   p, li{
+      color: $white;
+   }
+   li{
+      list-style-type: circle;
+      list-style-position: inside;
+   }
+   hr{
+      color: $white;
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+}

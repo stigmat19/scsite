@@ -1,0 +1,116 @@
+@import "src/styles/variables";
+
+.CssMain{
+
+   color: $white;
+
+   h1{
+      color: $white;
+   }
+
+   hr{
+      margin-top: 15px;
+      margin-bottom: 15px;
+   }
+}
+
+.css-task{
+   ul{
+      li{
+         list-style-type: square;
+         list-style-position: inside;
+         margin-bottom: 15px;
+      }
+   }
+}
+
+.css1{
+   .exampleCode{
+      border: 1px solid $blue;
+      color: $white;
+      padding: 15px;
+
+      & + p{
+         margin-top: 10px;
+         margin-bottom: 10px;
+      }
+   }
+   ul{
+      li{
+         p{
+            width: 550px;
+            border: 1px solid $white;
+            padding: 15px;
+            margin-top: 10px;
+         }
+      }
+   }
+   hr{
+      margin-bottom: 10px;
+   }
+}
+
+.css2{
+   ul{
+      li{
+         span{
+            font-size: 200px;
+            line-height: 0.7;
+            display: block;
+            float: left;
+            height: 183px;
+         }
+      }
+   }
+}
+
+.css3{
+   & > img.horizontal_menu{
+      width: 800px;
+      margin-bottom: 20px;
+   }
+   & > img.vertical_menu{
+      width: 500px;
+      margin-bottom: 20px;
+   }
+}
+
+.css4{
+   & > img{
+      width: 600px;
+      margin-bottom: 20px;
+   }
+   hr{
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   ul img{
+      width: 20px;
+      height: 20px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
