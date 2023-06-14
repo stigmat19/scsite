@@ -74,7 +74,7 @@ export const Css1 = () => {
             <hr/>
             <h2>Домашнее задание - базовое #2</h2>
             <p>Оформите "Сопроводительное письмо" согласно макету</p>
-            <Link to={letter} target="_blank">Ссылка на макет</Link>
+            <Link to={letter} target="_blank" rel="noreferrer">Ссылка на макет</Link>
         </div>
     )
 }

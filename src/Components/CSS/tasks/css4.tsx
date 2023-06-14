@@ -52,7 +52,7 @@ export const Css4 = () => {
             <img src={example} alt=""/>
             <hr/>
             <h2>Домашнее задание - дополнительное #2</h2>
-            <p>Используя документацию по <a href="https://hcdev.ru/css/counter-increment" target="_blank">ссылке</a> и шахматную доску из 3 базового задания, сделать шахматную доску с уменьшающимися цифрами</p>
+            <p>Используя документацию по <a href="https://hcdev.ru/css/counter-increment" target="_blank" rel="noreferrer">ссылке</a> и шахматную доску из 3 базового задания, сделать шахматную доску с уменьшающимися цифрами</p>
             <img src={chessWithCounter} alt=""/>
         </div>
     )

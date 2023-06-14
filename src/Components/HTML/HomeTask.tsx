@@ -111,9 +111,9 @@ export const HomeTask = () => {
                 <h2>Домашнее задание - базовое</h2>
                 <h3>Продолжить оформление разделов:</h3>
                 <ul>
-                    <li><Link to={phytonWithLink1} target="_blank">Программа на Python — часть 1</Link></li>
-                    <li><Link to={phytonWithLink2} target="_blank">Программа на Python — часть 2</Link></li>
-                    <li><Link to={phytonWithLink3} target="_blank">Программа на Python — часть 2</Link></li>
+                    <li><Link to={phytonWithLink1} target="_blank" rel="noreferrer">Программа на Python — часть 1</Link></li>
+                    <li><Link to={phytonWithLink2} target="_blank" rel="noreferrer">Программа на Python — часть 2</Link></li>
+                    <li><Link to={phytonWithLink3} target="_blank" rel="noreferrer">Программа на Python — часть 2</Link></li>
                 </ul>
                 <h3>Сделать:</h3>
                 <ul>
@@ -127,7 +127,7 @@ export const HomeTask = () => {
                 <h2>Домашнее задание - дополнительное</h2>
                 <h3>Продолжить оформление разделов:</h3>
                 <ul>
-                    <li>Оформить меню согласно <Link to={menu} target="_blank">макету</Link>.</li>
+                    <li>Оформить меню согласно <Link to={menu} target="_blank" rel="noreferrer">макету</Link>.</li>
                     <li>После оформления организовать "физическую структуру" файлов и каталогов согласно схеме указанной на рисунке.</li>
                     <li>Меню должно находиться в каждом файле и работать таким образом, чтобы из любого файла перейти в любой файл.</li>
                 </ul>
@@ -153,12 +153,12 @@ export const HomeTask = () => {
             <>
                 <h1>04. HTML. Мультмедиа в HTML</h1>
                 <h2>Домашнее задание - базовое</h2>
-                <Link to="https://drive.google.com/drive/folders/1yA-4jsgTNgU7_kY4oF2XHBPn43QN1Q3U?usp=sharing" target="_blank">Материал для заданий</Link>
+                <Link to="https://drive.google.com/drive/folders/1yA-4jsgTNgU7_kY4oF2XHBPn43QN1Q3U?usp=sharing" target="_blank" rel="noreferrer">Материал для заданий</Link>
                 <h3>Добавить графические элементы в файлах как указано в шаблоне:</h3>
                 <ul>
-                    <li><Link to={phytonWithImg1} target="_blank">Программа на Python — часть 1</Link></li>
-                    <li><Link to={phytonWithImg1} target="_blank">Программа на Python — часть 2</Link></li>
-                    <li><Link to={phytonWithImg1} target="_blank">Программа на Python — часть 3</Link></li>
+                    <li><Link to={phytonWithImg1} target="_blank" rel="noreferrer">Программа на Python — часть 1</Link></li>
+                    <li><Link to={phytonWithImg1} target="_blank" rel="noreferrer">Программа на Python — часть 2</Link></li>
+                    <li><Link to={phytonWithImg1} target="_blank" rel="noreferrer">Программа на Python — часть 3</Link></li>
                 </ul>
                 <h3>Функционал нижних кнопок:</h3>
                 <ul>
@@ -183,7 +183,7 @@ export const HomeTask = () => {
                 <h3>Реализуйте кнопки переходов. описанных в предыдущем задании, при помощи векторной графики (SVG). Материал для изучения:</h3>
                 <ul>
                     <li>
-                        <a href="https://developer.mozilla.org/ru/docs/Web/SVG" target="_blank">Документация</a>
+                        <a href="https://developer.mozilla.org/ru/docs/Web/SVG" target="_blank" rel="noreferrer">Документация</a>
                     </li>
                     <li>Клипарт: <a href="http://clipart.nicubunu.ro/">http://clipart.nicubunu.ro/</a></li>
                     <li>Клипарт: <a href="http://svgcuts.com/blog/category/fsvgotw/">http://svgcuts.com/blog/category/fsvgotw/</a></li>
@@ -198,13 +198,13 @@ export const HomeTask = () => {
             <>
                 <h1>05. HTML. Формы в HTML</h1>
                 <h2>Домашнее задание - базовое</h2>
-                <a href="https://drive.google.com/drive/folders/1yA-4jsgTNgU7_kY4oF2XHBPn43QN1Q3U?usp=sharing" target="_blank">Материал для заданий</a>
+                <a href="https://drive.google.com/drive/folders/1yA-4jsgTNgU7_kY4oF2XHBPn43QN1Q3U?usp=sharing" target="_blank" rel="noreferrer">Материал для заданий</a>
                 <h3>Формы отправки данных: (рекомендации для оформления внутри документов, графические материалы <img src={email} alt="img"/>)</h3>
-                <Link to={forms} target="_blank">Формы</Link>
+                <Link to={forms} target="_blank" rel="noreferrer">Формы</Link>
                 <p>Для проверки ваших отправляемых значений воспользуйтесь данным скриптом (просто добавьте путь к нему в значение атрибута action, тега form ): http://fe.it-academy.by/TestForm.php</p>
                 <hr/>
                 <h2>Домашнее задание - дополнительное</h2>
-                <Link to={formReg} target="_blank">Форма регистрации</Link>
+                <Link to={formReg} target="_blank" rel="noreferrer">Форма регистрации</Link>
                 <p>Для проверки ваших отправляемых значений воспользуйтесь данным скриптом (просто добавьте путь к нему в значение атрибута action, тега form ): http://fe.it-academy.by/TestForm.php</p>
                 <hr/>
                 <h3>Ссылки для дополнительного изучения</h3>

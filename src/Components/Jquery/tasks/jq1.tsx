@@ -8,7 +8,7 @@ export const Jq1 = () => {
         <div className="jq-task jq1">
             <h1>01. CSS. Определение стилей. Работа с оформлением текста</h1>
             <h2>Домашнее задание - базовое #1</h2>
-            <p>Используя jquery сделать функционал показанный на <a href={"https://youtu.be/7p1VaKf1Dws"} target="_blank">видео</a></p>
+            <p>Используя jquery сделать функционал показанный на <a href={"https://youtu.be/7p1VaKf1Dws"} target="_blank" rel="noreferrer">видео</a></p>
             <ul>
                 <li>1) Сверстать таблицу</li>
                 <li>2) При нажатии на строку таблицы, скрывать ее</li>
@@ -16,7 +16,7 @@ export const Jq1 = () => {
             </ul>
             <hr/>
             <h2>Домашнее задание - Дополнительное #1</h2>
-            <p>Используя jquery сделать функционал показанный на <a href={"https://youtu.be/WJi2ThYWLGQ"} target="_blank">видео</a></p>
+            <p>Используя jquery сделать функционал показанный на <a href={"https://youtu.be/WJi2ThYWLGQ"} target="_blank" rel="noreferrer">видео</a></p>
             <ul>
                 <li>1) Сверстать форму</li>
                 <li>2) При вводе разных значений в инпуты, подсветить красным</li>
